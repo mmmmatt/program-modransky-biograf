@@ -1,7 +1,5 @@
 # Program Modřanského biografu
 
-Každé pondělí ráno GitHub Action otevře [web kina](https://www.modranskybiograf.cz/) v prohlížeči a uloží program na dostupné dny do `program.json`. Když se nepodaří najít žádné promítání, běh selže a poslední uložený program zůstane beze změny.
+Každé pondělí ráno GitHub Action stáhne veřejná data z [kinokinokino.cz](https://www.kinokinokino.cz/), vybere Modřanský biograf a uloží program do `program.json`. Když žádné promítání nenajde, běh selže a poslední uložený program zůstane beze změny.
 
-Ruční spuštění: záložka Actions → Program kina → Run workflow.
-
-**Stav:** pravidelné spouštění je vypnuté. Web kina chrání Vercel Security Checkpoint, který prohlížeč spuštěný z GitHub Actions odmítá (HTTP 429), a tato ochrana se záměrně neobchází.
+Oficiální program je na [webu kina](https://www.modranskybiograf.cz/). Ruční spuštění: Actions → Program kina → Run workflow.

@@ -1,6 +1,0 @@
-{
-  "name": "program-modransky-biograf",
-  "private": true,
-  "scripts": { "scrape": "node scrape.js", "test": "node test/run.js" },
-  "dependencies": { "playwright": "1.48.2" }
-}

@@ -1,20 +1,20 @@
 name: Program kina
 on:
+  schedule:
+    - cron: '17 4 * * 1'
   workflow_dispatch:
 permissions:
   contents: write
 jobs:
-  scrape:
+  program:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
-      - run: npm install
-      - run: npx playwright install --with-deps chromium
-      - run: npm test
-      - run: npm run scrape
+          node-version: 22
+      - run: node fetch-program.test.js
+      - run: node fetch-program.js
       - run: |
           git config user.name "program-kina-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
