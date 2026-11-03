@@ -12,3 +12,9 @@ assert.deepStrictEqual(result.days[1].screenings.map((s) => s.time), ['17:30', '
 assert.strictEqual(result.days[1].screenings[0].csfd, 'c');
 assert.strictEqual(result.days[0].screenings.length, 1);
 console.log('Testy prošly.');
+const { parseEvents } = require('./fetch-kc12');
+assert.deepStrictEqual(parseEvents('MENU\n24.11.2026\nSylvie 19:00\nVSTUPENKY\n10.11.2026\nRecitál Kláry 19:00\nVyprodáno\n01.01.2027\nBez času'), [
+  { date: '2026-11-24', time: '19:00', title: 'Sylvie', status: 'VSTUPENKY' },
+  { date: '2026-11-10', time: '19:00', title: 'Recitál Kláry', status: 'Vyprodáno' },
+]);
+console.log('Test KC12 prošel.');
