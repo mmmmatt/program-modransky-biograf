@@ -1,0 +1,31 @@
+name: Přehled akcí
+on:
+  workflow_run:
+    workflows: ['Program kina']
+    types: [completed]
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Jen zkouška: e-mail neposílat, výsledek ukázat v souhrnu běhu'
+        type: boolean
+        default: true
+permissions:
+  contents: read
+jobs:
+  prehled:
+    # Po obnově dat běží jen plánovaný pondělní běh, ruční obnova programu e-mail neposílá.
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.event == 'schedule'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node prehled.test.js
+      - run: npm install --no-save nodemailer@6.9.16
+      - run: node prehled.js
+        env:
+          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run && '1' || '' }}
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}

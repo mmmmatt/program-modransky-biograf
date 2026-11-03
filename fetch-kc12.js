@@ -39,7 +39,7 @@ async function main() {
       await page.waitForTimeout(2000);
       const detail = (await page.evaluate(() => document.body.innerText)).replace(/\s*\n\s*/g, ' | ');
       const start = detail.indexOf(event.title);
-      event.detail = detail.slice(Math.max(0, start), Math.max(0, start) + 900);
+      event.detail = detail.slice(Math.max(0, start), Math.max(0, start) + 1600);
     }
     fs.writeFileSync('kc12.json', JSON.stringify({ source: SOURCE, generated_at: new Date().toISOString(), events }, null, 2) + '\n');
     console.log(`Uloženo ${events.length} akcí.`);
