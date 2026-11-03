@@ -1,11 +1,11 @@
 // Jednorázová zkouška, které zdroje ukazují program kina.
 const { chromium } = require('playwright');
 const URLS = [
-  'https://www.kinobox.cz/kino_program/praha/100-modransky-biograf',
-  'https://kulturnimapa.cz/kina/program-kina-modransky-biograf.html?id=97&na=tyden',
   'https://kinomaniak.cz/program-kin/praha/dnes/seznam',
-  'https://www.programprazskychkin.cz/kina/20-modransky-biograf-praha',
-  'https://goout.net/en/modrany-biograf/vznrf/events/',
+  'https://kinomaniak.cz/program-kin/praha',
+  'https://www.kinokinokino.cz/',
+  'https://www.moviezone.cz/kina',
+  'https://www.programprazskychkin.cz/kina/20-modransky-biograf-praha?date=tyden',
 ];
 (async () => {
   const browser = await chromium.launch();
@@ -21,7 +21,9 @@ const URLS = [
       const lines = text.split('\n').map((s) => s.trim()).filter(Boolean);
       const idx = lines.findIndex((l) => /^\d{1,2}:\d{2}/.test(l));
       console.log('STATUS', res.status(), 'TITLE', await page.title(), 'LINES', lines.length);
-      console.log(lines.slice(Math.max(0, idx - 12), Math.max(0, idx - 12) + 60).join(' | ').slice(0, 2500));
+      console.log('MODRANY:', lines.filter((l) => /Mod[řr]an/i.test(l)).slice(0, 10).join(' | '));
+      console.log('LINKS:', JSON.stringify(await page.$$eval('a', (a) => a.filter((x) => /mod[rř]an/i.test(x.href + x.innerText)).map((x) => x.href).slice(0, 10))));
+      console.log(lines.slice(0, 40).join(' | ').slice(0, 900));
     } catch (e) { console.log('ERROR', e.message.slice(0, 200)); }
   }
   await browser.close();
