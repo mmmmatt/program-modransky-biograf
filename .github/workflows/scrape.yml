@@ -1,7 +1,5 @@
 name: Program kina
 on:
-  schedule:
-    - cron: '17 4 * * 1'
   workflow_dispatch:
 permissions:
   contents: write
