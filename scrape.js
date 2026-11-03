@@ -46,8 +46,14 @@ async function scrape() {
   try {
     const page = await browser.newPage({ locale: 'cs-CZ', timezoneId: TZ });
     const open = async (index) => {
-      await page.goto(`${BASE}?filterIndex=${index}`, { waitUntil: 'domcontentloaded', timeout: 60000 });
-      await page.waitForSelector('a[href^="?filterIndex="]', { timeout: 30000 });
+      const response = await page.goto(`${BASE}?filterIndex=${index}`, { waitUntil: 'domcontentloaded', timeout: 60000 });
+      try {
+        await page.waitForSelector('a[href^="?filterIndex="]', { state: 'attached', timeout: 30000 });
+      } catch (err) {
+        const body = await page.evaluate(() => document.body?.innerText?.slice(0, 800));
+        console.error('Stránka bez záložek:', { status: response?.status(), url: page.url(), title: await page.title(), body });
+        throw err;
+      }
       await page.waitForFunction(() => document.querySelector('main')?.innerText.includes('NEJBLIŽŠÍ PROJEKCE'), null, { timeout: 30000 });
       await page.waitForTimeout(2000);
     };
