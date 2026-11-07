@@ -18,3 +18,7 @@ assert.deepStrictEqual(parseEvents('MENU\n24.11.2026\nSylvie 19:00\nVSTUPENKY\n1
   { date: '2026-11-10', time: '19:00', title: 'Recitál Kláry', status: 'Vyprodáno' },
 ]);
 console.log('Test KC12 prošel.');
+const { eventLinks, listUrl } = require('./fetch-hilsky');
+assert.deepStrictEqual(eventLinks('<a href="/cz/akce/shakespearovi-klauni-sasci/3842">x</a><a href="/cz/akce/shakespearovi-klauni-sasci/3842">y</a><a href="/cz/akce/vsechny-akce?page=1">z</a>'), ['https://www.mlp.cz/cz/akce/shakespearovi-klauni-sasci/3842']);
+assert.ok(listUrl('2026-11-09', '2026-12-19', 2).includes('page=2'));
+console.log('Test MKP prošel.');
