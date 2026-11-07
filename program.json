@@ -1,98 +1,14 @@
 {
   "source": "https://www.kinokinokino.cz/data/praha/data.json",
-  "generated_at": "2026-11-03T12:45:56.668Z",
+  "generated_at": "2026-11-07T16:08:47.692Z",
   "days": [
-    {
-      "date": "2026-11-03",
-      "screenings": [
-        {
-          "time": "18:00",
-          "title": "Kluci to vidí jinak než holky",
-          "categories": "",
-          "price": "",
-          "link": "https://www.modranskybiograf.cz/akce/47411",
-          "csfd": "https://www.csfd.cz/film/1756842/prehled/"
-        },
-        {
-          "time": "20:00",
-          "title": "Rozum a cit",
-          "categories": "",
-          "price": "",
-          "link": "https://www.modranskybiograf.cz/akce/51276",
-          "csfd": "https://www.csfd.cz/film/1771926/prehled/"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-04",
-      "screenings": [
-        {
-          "time": "17:30",
-          "title": "Rammstein – Live in Mexico City",
-          "categories": "",
-          "price": "",
-          "link": "https://www.modranskybiograf.cz/akce/47000",
-          "csfd": "https://www.csfd.cz/film/1907320/prehled/"
-        },
-        {
-          "time": "20:00",
-          "title": "TADY VARY 2026 Divoký kůň Devítka",
-          "categories": "",
-          "price": "",
-          "link": "https://www.modranskybiograf.cz/akce/46162",
-          "csfd": "https://www.csfd.cz/film/1653175/prehled/"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-05",
-      "screenings": [
-        {
-          "time": "17:30",
-          "title": "Kluci to vidí jinak než holky",
-          "categories": "",
-          "price": "",
-          "link": "https://www.modranskybiograf.cz/akce/47411",
-          "csfd": "https://www.csfd.cz/film/1756842/prehled/"
-        },
-        {
-          "time": "19:30",
-          "title": "De Gaulle 1: Odboj",
-          "categories": "",
-          "price": "",
-          "link": "https://www.modranskybiograf.cz/akce/50686",
-          "csfd": "https://www.csfd.cz/film/1792238/prehled/"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-06",
-      "screenings": [
-        {
-          "time": "17:00",
-          "title": "Rozum a cit",
-          "categories": "",
-          "price": "",
-          "link": "https://www.modranskybiograf.cz/akce/51276",
-          "csfd": "https://www.csfd.cz/film/1771926/prehled/"
-        },
-        {
-          "time": "19:30",
-          "title": "Uvidíš všechno",
-          "categories": "",
-          "price": "",
-          "link": "https://www.modranskybiograf.cz/akce/51313",
-          "csfd": "https://www.csfd.cz/film/1899627/prehled/"
-        }
-      ]
-    },
     {
       "date": "2026-11-07",
       "screenings": [
         {
           "time": "13:00",
           "title": "Pat a Mat: Zpátky na venkově",
-          "categories": "",
+          "categories": "deti-rodina",
           "price": "",
           "link": "https://www.modranskybiograf.cz/akce/46510",
           "csfd": "https://www.csfd.cz/film/1865081/prehled/"
@@ -100,7 +16,7 @@
         {
           "time": "14:20",
           "title": "Santova kouzelná dílna",
-          "categories": "",
+          "categories": "deti-rodina",
           "price": "",
           "link": "https://www.modranskybiograf.cz/akce/49886",
           "csfd": "https://www.csfd.cz/film/1789666/prehled/"
@@ -108,7 +24,7 @@
         {
           "time": "15:50",
           "title": "Kocour v klobouku",
-          "categories": "",
+          "categories": "deti-rodina",
           "price": "",
           "link": "https://www.modranskybiograf.cz/akce/49872",
           "csfd": "https://www.csfd.cz/film/1504572/prehled/"
@@ -137,7 +53,7 @@
         {
           "time": "12:55",
           "title": "Ovečka Shaun: Příšera z Mossy Bottom",
-          "categories": "",
+          "categories": "deti-rodina",
           "price": "",
           "link": "https://www.modranskybiograf.cz/akce/44108",
           "csfd": "https://www.csfd.cz/film/1679675/prehled/"
@@ -145,7 +61,7 @@
         {
           "time": "14:25",
           "title": "Mia a škola monster",
-          "categories": "",
+          "categories": "deti-rodina",
           "price": "",
           "link": "https://www.modranskybiograf.cz/akce/46516",
           "csfd": "https://www.csfd.cz/film/1853764/prehled/"
@@ -153,7 +69,7 @@
         {
           "time": "16:00",
           "title": "Kocour v klobouku",
-          "categories": "",
+          "categories": "deti-rodina",
           "price": "",
           "link": "https://www.modranskybiograf.cz/akce/49872",
           "csfd": "https://www.csfd.cz/film/1504572/prehled/"
@@ -182,7 +98,7 @@
         {
           "time": "15:00",
           "title": "Tango pro 3",
-          "categories": "",
+          "categories": "seniori",
           "price": "",
           "link": "https://www.modranskybiograf.cz/akce/47343",
           "csfd": "https://www.csfd.cz/film/1810733/prehled/"
@@ -293,36 +209,36 @@
       "date": "2026-11-14",
       "screenings": [
         {
-          "time": "12:15",
+          "time": "12:40",
           "title": "Pat a Mat: Zpátky na venkově",
-          "categories": "",
+          "categories": "deti-rodina",
           "price": "",
           "link": "https://www.modranskybiograf.cz/akce/46510",
           "csfd": "https://www.csfd.cz/film/1865081/prehled/"
         },
         {
-          "time": "13:40",
+          "time": "14:00",
           "title": "Příručka pro superhrdiny",
-          "categories": "",
+          "categories": "deti-rodina",
           "price": "",
           "link": "https://www.modranskybiograf.cz/akce/49893",
           "csfd": "https://www.csfd.cz/film/1784769/prehled/"
         },
         {
-          "time": "15:30",
+          "time": "15:45",
           "title": "Kocour v klobouku",
-          "categories": "",
+          "categories": "deti-rodina",
           "price": "",
           "link": "https://www.modranskybiograf.cz/akce/49872",
           "csfd": "https://www.csfd.cz/film/1504572/prehled/"
         },
         {
-          "time": "17:30",
-          "title": "Můj pes Barry",
+          "time": "17:45",
+          "title": "Jediná vteřina",
           "categories": "",
           "price": "",
-          "link": "https://www.modranskybiograf.cz/akce/49900",
-          "csfd": "https://www.csfd.cz/film/1772982/prehled/"
+          "link": "https://www.modranskybiograf.cz/akce/52257",
+          "csfd": "https://www.csfd.cz/film/1913340/prehled/"
         },
         {
           "time": "19:30",
@@ -340,7 +256,7 @@
         {
           "time": "12:00",
           "title": "Pejsek Fešák",
-          "categories": "",
+          "categories": "deti-rodina",
           "price": "",
           "link": "https://www.modranskybiograf.cz/akce/47410",
           "csfd": "https://www.csfd.cz/film/1869285/prehled/"
@@ -348,7 +264,7 @@
         {
           "time": "13:45",
           "title": "Příručka pro superhrdiny",
-          "categories": "",
+          "categories": "deti-rodina",
           "price": "",
           "link": "https://www.modranskybiograf.cz/akce/49893",
           "csfd": "https://www.csfd.cz/film/1784769/prehled/"
@@ -356,18 +272,18 @@
         {
           "time": "15:30",
           "title": "Wildwood: Tajemství zakázaného lesa",
-          "categories": "",
+          "categories": "deti-rodina",
           "price": "",
           "link": "https://www.modranskybiograf.cz/akce/48635",
           "csfd": "https://www.csfd.cz/film/1433132/prehled/"
         },
         {
-          "time": "18:15",
-          "title": "Jediná vteřina",
+          "time": "18:00",
+          "title": "Můj pes Barry",
           "categories": "",
           "price": "",
-          "link": "https://www.modranskybiograf.cz/akce/52257",
-          "csfd": "https://www.csfd.cz/film/1913340/prehled/"
+          "link": "https://www.modranskybiograf.cz/akce/49900",
+          "csfd": "https://www.csfd.cz/film/1772982/prehled/"
         },
         {
           "time": "20:00",
@@ -385,7 +301,7 @@
         {
           "time": "15:00",
           "title": "V srdci divočiny",
-          "categories": "",
+          "categories": "seniori",
           "price": "",
           "link": "https://www.modranskybiograf.cz/akce/44170",
           "csfd": "https://www.csfd.cz/film/1679576/prehled/"
@@ -451,15 +367,154 @@
       ]
     },
     {
+      "date": "2026-11-19",
+      "screenings": [
+        {
+          "time": "17:30",
+          "title": "Rozum a cit",
+          "categories": "",
+          "price": "",
+          "link": "https://www.modranskybiograf.cz/akce/51276",
+          "csfd": "https://www.csfd.cz/film/1771926/prehled/"
+        },
+        {
+          "time": "20:00",
+          "title": "Villeneuve: Zrození šampióna",
+          "categories": "",
+          "price": "",
+          "link": "https://www.modranskybiograf.cz/akce/50330",
+          "csfd": "https://www.csfd.cz/film/1809121/prehled/"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "screenings": [
+        {
+          "time": "13:40",
+          "title": "Kocour v klobouku",
+          "categories": "deti-rodina",
+          "price": "",
+          "link": "https://www.modranskybiograf.cz/akce/49872",
+          "csfd": "https://www.csfd.cz/film/1504572/prehled/"
+        },
+        {
+          "time": "15:40",
+          "title": "Můj pes Barry",
+          "categories": "",
+          "price": "",
+          "link": "https://www.modranskybiograf.cz/akce/49900",
+          "csfd": "https://www.csfd.cz/film/1772982/prehled/"
+        },
+        {
+          "time": "18:00",
+          "title": "Villeneuve: Zrození šampióna",
+          "categories": "",
+          "price": "",
+          "link": "https://www.modranskybiograf.cz/akce/50330",
+          "csfd": "https://www.csfd.cz/film/1809121/prehled/"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-22",
+      "screenings": [
+        {
+          "time": "13:45",
+          "title": "Příručka pro superhrdiny",
+          "categories": "deti-rodina",
+          "price": "",
+          "link": "https://www.modranskybiograf.cz/akce/49893",
+          "csfd": "https://www.csfd.cz/film/1784769/prehled/"
+        },
+        {
+          "time": "19:30",
+          "title": "Uvidíš všechno",
+          "categories": "",
+          "price": "",
+          "link": "https://www.modranskybiograf.cz/akce/51313",
+          "csfd": "https://www.csfd.cz/film/1899627/prehled/"
+        }
+      ]
+    },
+    {
       "date": "2026-11-23",
       "screenings": [
         {
           "time": "15:00",
           "title": "Šipkaři",
-          "categories": "",
+          "categories": "seniori",
           "price": "",
           "link": "https://www.modranskybiograf.cz/akce/46509",
           "csfd": "https://www.csfd.cz/film/1784123/prehled/"
+        },
+        {
+          "time": "17:30",
+          "title": "Villeneuve: Zrození šampióna",
+          "categories": "",
+          "price": "",
+          "link": "https://www.modranskybiograf.cz/akce/50330",
+          "csfd": "https://www.csfd.cz/film/1809121/prehled/"
+        },
+        {
+          "time": "19:30",
+          "title": "Kluci to vidí jinak než holky",
+          "categories": "",
+          "price": "",
+          "link": "https://www.modranskybiograf.cz/akce/47411",
+          "csfd": "https://www.csfd.cz/film/1756842/prehled/"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "screenings": [
+        {
+          "time": "17:00",
+          "title": "Hexe: Magický svět",
+          "categories": "deti-rodina",
+          "price": "",
+          "link": "https://www.modranskybiograf.cz/akce/50332",
+          "csfd": "https://www.csfd.cz/film/1731622/prehled/"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "screenings": [
+        {
+          "time": "16:00",
+          "title": "Hexe: Magický svět",
+          "categories": "deti-rodina",
+          "price": "",
+          "link": "https://www.modranskybiograf.cz/akce/50332",
+          "csfd": "https://www.csfd.cz/film/1731622/prehled/"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-28",
+      "screenings": [
+        {
+          "time": "13:00",
+          "title": "Hexe: Magický svět",
+          "categories": "deti-rodina",
+          "price": "",
+          "link": "https://www.modranskybiograf.cz/akce/50332",
+          "csfd": "https://www.csfd.cz/film/1731622/prehled/"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-29",
+      "screenings": [
+        {
+          "time": "16:00",
+          "title": "Hexe: Magický svět",
+          "categories": "deti-rodina",
+          "price": "",
+          "link": "https://www.modranskybiograf.cz/akce/50332",
+          "csfd": "https://www.csfd.cz/film/1731622/prehled/"
         }
       ]
     },
@@ -469,10 +524,44 @@
         {
           "time": "15:00",
           "title": "Kluci to vidí jinak než holky",
-          "categories": "",
+          "categories": "seniori",
           "price": "",
           "link": "https://www.modranskybiograf.cz/akce/47411",
           "csfd": "https://www.csfd.cz/film/1756842/prehled/"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-02",
+      "screenings": [
+        {
+          "time": "17:30",
+          "title": "Hexe: Magický svět",
+          "categories": "deti-rodina",
+          "price": "",
+          "link": "https://www.modranskybiograf.cz/akce/50332",
+          "csfd": "https://www.csfd.cz/film/1731622/prehled/"
+        },
+        {
+          "time": "20:00",
+          "title": "TADY VARY 2026 Behemot!",
+          "categories": "",
+          "price": "",
+          "link": "https://www.modranskybiograf.cz/akce/46163",
+          "csfd": "https://www.csfd.cz/film/1759654/prehled/"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-06",
+      "screenings": [
+        {
+          "time": "15:00",
+          "title": "Santova kouzelná dílna",
+          "categories": "deti-rodina",
+          "price": "",
+          "link": "https://www.modranskybiograf.cz/akce/49886",
+          "csfd": "https://www.csfd.cz/film/1789666/prehled/"
         }
       ]
     },
@@ -633,6 +722,19 @@
           "price": "",
           "link": "https://www.modranskybiograf.cz/akce/49179",
           "csfd": "https://www.csfd.cz/film/1219917/prehled/"
+        }
+      ]
+    },
+    {
+      "date": "2027-01-13",
+      "screenings": [
+        {
+          "time": "19:00",
+          "title": "Studio DVA divadlo: Beckham",
+          "categories": "",
+          "price": "",
+          "link": "https://www.modranskybiograf.cz/akce/52764",
+          "csfd": ""
         }
       ]
     }
